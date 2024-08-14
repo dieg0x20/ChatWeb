@@ -12,4 +12,9 @@ Node.js
  
 
 ---
-feito com ❤️ por [Diego Francisco](https://gist.github.com/diego4w) 😊
+<div align="center">
+ <p>
+  feito por <a href="https://gist.github.com/diego4w">Diego Francisco</a> e os aliens
+</p>
+  <img style="width: 50px;" src="https://lowsec-community.vercel.app/assets/alien.png" alt="alien"/>
+</div>
