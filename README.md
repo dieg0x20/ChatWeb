@@ -14,7 +14,7 @@ Node.js
 ---
 <div align="center">
  <p>
-  feito por <a href="https://gist.github.com/diego4w">Diego Francisco</a> e os aliens
+  feito por <a href="https://github.com/dieg0x20">Diego Francisco</a> e os aliens
 </p>
   <img style="width: 50px;" src="https://lowsec-community.vercel.app/assets/alien.png" alt="alien"/>
 </div>
