@@ -9,10 +9,10 @@ const serverHttp = http.createServer(app);
 // Configurar o Socket.io para usar o servidor HTTP
 const io = new Server(serverHttp);
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
+    res.json({message: 'ola mundo'});
   });
   
   io.on('connection', (socket) => {
