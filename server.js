@@ -47,7 +47,7 @@ app.post('/api/mensagens', (req, res) => {
 });
 
 app.delete('/api/mensagens/:id', (req, res) => {
-  const index = mensagens.findIndex(m => m.id === parseInt(req.params.id));
+  const index = message.findIndex(m => m.id === parseInt(req.params.id));
   if (index !== -1) {
       const [mensagemRemovida] = mensagens.splice(index, 1);
       io.emit('mensagem-deletada', mensagemRemovida); // Emite um evento para todos os clientes conectados
