@@ -28,7 +28,7 @@ app.get('/api/mensagens', (req, res) => {
     res.json(message);     
   });
 app.get('/api/mensagens/:id', (req, res) => {
-    const mensagem = mensagens.find(m => m.id === parseInt(req.params.id));
+    const mensagem = message.find(m => m.id === parseInt(req.params.id));
     if (mensagem) {
         res.json(mensagem);
     } else {
